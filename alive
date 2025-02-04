@@ -1,9 +1,0 @@
-ls -d wp-content/ai1wm-backups/
-ls -d wp-content/jetpack-waf/
-ls -d wp-content/uploads/
-ls -d wp-content/upgrade/
-ls -d wp-content/upgrade-temp-backup/
-ls -d wp-content/cache/
-ls -d wp-admin/
-ls -d wp-includes/
-ls wp-config.php
