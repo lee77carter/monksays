@@ -1,0 +1,9 @@
+wp-content/ai1wm-backups/
+wp-content/jetpack-waf/
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/upgrade-temp-backup/
+wp-content/cache/
+wp-admin/
+wp-includes/
+wp-config.php

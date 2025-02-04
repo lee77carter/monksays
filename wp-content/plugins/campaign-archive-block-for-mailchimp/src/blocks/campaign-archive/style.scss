@@ -1,0 +1,29 @@
+.wp-block-cabfm-campaign-archive {
+	list-style: none;
+	padding: 0;
+	margin-left: 0;
+	margin-right: 0;
+
+	&.alignleft {
+
+		/*rtl:ignore*/
+		margin-right: 2em;
+	}
+
+	&.alignright {
+
+		/*rtl:ignore*/
+		margin-left: 2em;
+	}
+
+	li {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+.wp-block-campaign-archive-publish-date,
+.wp-block-campaign-archive-author {
+	display: block;
+	font-size: 0.8125em;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "simple-blog-card",
+  "version": "1.0.5",
+  "description": "Simple Blog Card",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "author": "Katsushi Kawamori",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@wordpress/scripts": "30.4.0"
+  },
+  "dependencies": {
+    "@wordpress/api-fetch": "^7.11.0",
+    "@wordpress/dom-ready": "^4.11.0",
+    "@wordpress/element": "^6.11.0",
+    "@wordpress/i18n": "^5.11.0"
+  }
+}

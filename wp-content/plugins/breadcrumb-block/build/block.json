@@ -1,0 +1,92 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "boldblocks/breadcrumb-block",
+  "title": "Breadcrumb Block",
+  "category": "theme",
+  "description": "A simple breadcrumb trail block that supports JSON-LD structured data",
+  "keywords": [
+    "breadcrumb",
+    "navigation",
+    "menu",
+    "link"
+  ],
+  "attributes": {
+    "gap": {
+      "type": "string",
+      "default": ".4em"
+    },
+    "separator": {
+      "type": "string",
+      "default": "/"
+    },
+    "hideHomePage": {
+      "type": "boolean",
+      "default": false
+    },
+    "hideCurrentPage": {
+      "type": "boolean",
+      "default": false
+    },
+    "homeText": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "supports": {
+    "html": false,
+    "anchor": true,
+    "ariaLabel": true,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "color": {
+      "background": true,
+      "text": true,
+      "gradients": true,
+      "link": true
+    },
+    "spacing": {
+      "margin": [
+        "top",
+        "bottom"
+      ],
+      "padding": true,
+      "__experimentalDefaultControls": {
+        "margin": true,
+        "padding": true
+      }
+    },
+    "__experimentalBorder": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true,
+      "__experimentalDefaultControls": false
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontFamily": true,
+      "__experimentalFontStyle": true,
+      "__experimentalFontWeight": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalTextTransform": true,
+      "__experimentalTextDecoration": true,
+      "__experimentalDefaultControls": {
+        "fontSize": true,
+        "lineHeight": true,
+        "fontAppearance": true,
+        "textTransform": true
+      },
+      "interactivity": {
+        "clientNavigation": true
+      }
+    }
+  },
+  "textdomain": "breadcrumb-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
